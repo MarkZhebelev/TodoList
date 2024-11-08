@@ -32,18 +32,18 @@ To run the project locally, follow these steps:
    ```bash
    npm install
    ```
-
-3. **Create a `.env` file** in the root of the project and add the following environment variables:
-   ```env
-   REACT_APP_LOGIN=admin
-   REACT_APP_PASSWORD=admin
-   ```
-
-4. **Run the application**:
+   
+3. **Run the application**:
    ```bash
-   npm start
+   npm i && npm run start
    ```
-   Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the application.
+Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the application.
+
+4. **Use the following login and password** 
+   ```bash
+   login: admin
+   password: admin
+   ```
 
 ## Routing
 - `/auth` - Authentication page

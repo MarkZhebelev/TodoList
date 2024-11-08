@@ -8,8 +8,8 @@ interface IAuthState {
 }
 const initialState: IAuthState = {
     isAuthenticated: sessionStorage.getItem('isAuthenticated') === 'true' || false,
-    login: process.env.REACT_APP_LOGIN || '',
-    password: process.env.REACT_APP_PASSWORD || '',
+    login: 'admin' || '',
+    password: 'admin' || '',
 }
 
 const createAuthSlice = createSlice({
