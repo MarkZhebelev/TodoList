@@ -24,6 +24,7 @@ const createTodoSlice = createSlice({
     initialState,
     reducers: {
         addTodo(state, action) {
+            console.log(action.payload)
             try {
                 state.todos.push(
                     {
