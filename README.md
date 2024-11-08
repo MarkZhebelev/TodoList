@@ -45,6 +45,11 @@ Open your browser and go to [http://localhost:3000](http://localhost:3000) to vi
    password: admin
    ```
 
+5. **Run the unit tests using the command**:
+   ```bash
+   npm test
+   ```
+
 ## Routing
 - `/auth` - Authentication page
 - `/todolist` - Main To-do List page (Protected Route)
