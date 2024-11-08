@@ -6,8 +6,8 @@ describe('authSlice', () => {
         const emptyAction =  { type: '' };
         expect(authReducer(undefined, emptyAction)).toEqual({
             isAuthenticated: false,
-            login: process.env.REACT_APP_LOGIN || '',
-            password: process.env.REACT_APP_PASSWORD || '',
+            login: 'admin' || '',
+            password: 'admin' || '',
         })
     })
     it('Verify that the login was done successfully', () => {
